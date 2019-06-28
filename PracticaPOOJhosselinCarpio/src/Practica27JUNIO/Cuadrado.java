@@ -9,6 +9,11 @@ package Practica27JUNIO;
  *
  * @author ISTLOJAV
  */
-public class FiguraTridimencional extends Figura {
-    
+public class Cuadrado {
+    public double calcularArea(double lado){
+        return Math.pow(lado,2);
+    }
+    public double calcularPerimetro(double lado){
+        return lado+lado+lado+lado;
+    }
 }
